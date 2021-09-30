@@ -119,7 +119,8 @@ $ roslaunch final_project TEAM_BOLD.launch
 - AR 태그를 인식해 차량의 yaw값을 구해 그 값에 10.0 만큼 곱한 값을 angle값을 사용하여 주차공간에 주차.
 ### Target Stop
 ![image](https://user-images.githubusercontent.com/65532515/134637519-e8cdd67f-f211-4e86-acc0-1eb0a69b6a18.png)
-- localization을 통한 차량의 현재위치를 구해 reference path 상의 타겟위치에서 5초간 정차하도록 구현.
+- Approach 1 : localization을 통한 차량의 현재위치를 구해 reference path 상의 타겟위치에서 5초간 정차하도록 구현.
+- Approach 2 : yolo를 이용하여 bounding_boxes 토픽의 Class값이 person, cat이고, 확률이 30%이상이면 5초간 정차하도록 구현.
 ### Slope
 ![image](https://user-images.githubusercontent.com/65532515/134640162-a825e691-13e7-439e-8e2b-34637f598846.png)
 - imu 데이터를 이용해 오르막길로 인식되면 모터 출력을 강하게 하여 올라간 후 내리막길로 인식되면 모터 출력을 0으로 하여 정차를 원할히 할 수 있도록 함.
