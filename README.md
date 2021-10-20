@@ -1,6 +1,15 @@
 # Programmers Autonomous-Driving Dev course. Final_Project_TeamB
 [K-Digital-Training] 자율주행 최종 경진대회
 
+## Member Roles
+
+| 이름         | 담당                                         |
+| ------------ | :------------------------------------------- |
+| 허석(팀장) | SLAM과 Stanley를 이용한 Path tracking 및 모드 통합 구현 |
+| 김민경       | 신호등 인식 및 장애물 회피 기능 구현 |
+| 이우석       | 평행 주차 및 모드 통합 기능 구현 |
+| 조영진       | SLAM, YOLO, AR tag 인식, 주차, 로터리 기능 구현 |
+
 ## Goal
 ---
 ![image](https://user-images.githubusercontent.com/65532515/134897572-cd5bc826-b7aa-4ae9-9293-1c176a6c41f7.png)
