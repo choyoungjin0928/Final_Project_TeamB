@@ -49,7 +49,7 @@
 ---
 - Ubuntu 18.04
 - ROS Melodic
-- Xycar Model D
+- 1/10 scale model car
 - Nvidia TX 2
 
 ## Structure
